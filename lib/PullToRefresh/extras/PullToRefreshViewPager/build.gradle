@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['aidl']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+
+dependencies {
+    //    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile 'com.android.support:support-v4:23.0.1'
+    compile project(':lib:PullToRefresh:library')
+    compile 'com.android.support:support-v4:23.0.1'
+}

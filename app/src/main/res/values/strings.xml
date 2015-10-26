@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CnblogsApp</string>
+
+    <string name="title_news">最新消息</string>
+    <string name="title_favorite">收藏列表</string>
+    <string name="title_feedback">反馈建议</string>
+    <string name="title_contact">联系我们</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_share">分享</string>
+    <string name="share_text">I would like to share this with you...</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loading">正在加载</string>
+    <string name="downnloadmore">下拉加载更多</string>
+    <string name="uploadmore">上拉加载更多</string>
+    <string name="startload">释放开始加载</string>
+
+    <string name="defaulttitle">默认标题</string>
+</resources>

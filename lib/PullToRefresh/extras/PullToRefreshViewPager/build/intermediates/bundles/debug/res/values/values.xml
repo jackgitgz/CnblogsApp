@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudioProjects/AndoridNewsApp/PullToRefreshExtras/PullToRefreshViewPager/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="viewpager" type="id"/>
+</resources>
